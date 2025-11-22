@@ -56,6 +56,6 @@ dependencies:
   - samtools==1.21
   - bcftools==1.22
   - htslib==1.22.1
-  - lumpy-sv>=0.3.1
+  #- lumpy-sv>=0.3.1
   # For the L3 GH practical course:
   #- merlin=1.1.2
