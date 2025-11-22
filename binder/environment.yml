@@ -1,0 +1,52 @@
+name: m1meg-gh-polygen
+# from template plasmabio-template-python
+# with elements from https://github.com/pierrepo/plasma-env-cleblond-score-polygen.git
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest priority
+channels:
+  - genomedk
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  # Jupyter dependencies
+  - jupyterhub>=1.5,<2
+  - jupyterlab>=3.2,<4
+  - jupyter-resource-usage
+  - jupyterlab-topbar
+  - jupyterlab-topbar-text
+  - jupyterlab-system-monitor
+  - nodejs
+  - bash_kernel
+  - mscorefonts
+  # Python environment
+  - python>=3.9,<3.13
+  - pip>=24.0
+  - ipywidgets>=7.6,<8
+  - numpy==>=1.21.2,<2
+  - pandas==2.3.1
+  - scipy==1.13.1
+  - matplotlib>=3.8,<3.9
+  - seaborn==0.13.2
+  - biopython==1.85
+  # Jupyter archive
+  # https://github.com/jupyterlab-contrib/jupyter-archive
+  # jupyter-archive not compatible with the current JupyterLab <4
+  - jupyter-archive
+  - pip:
+    # Jupyter-package-manager not compatible with the current JupyterLab <4
+    #- jupyter-package-manager
+    - liftover>=1.1.13,<=1.3.1
+    - pyarrow==16.0.0
+    - Cython<3.1
+    - gwaslab==3.6.3
+    - ldsc==2.0.1
+    - pybedtools==0.11.0
+    - polars==1.34.0
+    - scikit-allel==1.3.8
+    - statsmodels==0.14.5
+    - statannotations>=0.4.2
+    #- -r requirement.txt
+    # Print module version
+    - watermark

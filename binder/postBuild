@@ -1,0 +1,5 @@
+# pour forcer l'installation d'une version de pysam qui permet d'importer gwaslab
+pip install --no-build-isolation pysam==0.22.0
+
+# pour permettre à gwaslab d'utiliser les fonts mscorefonts sans avoir de problèmes avec matplotlib
+rm ~/.cache/matplotlib -rf
