@@ -40,13 +40,32 @@ dependencies:
     - liftover>=1.1.13,<=1.3.1
     - pyarrow==16.0.0
     - Cython<3.1
-    - gwaslab==3.6.3
     - ldsc==2.0.1
     - pybedtools==0.11.0
     - polars==1.34.0
     - scikit-allel==1.3.8
     - statsmodels==0.14.5
     - statannotations>=0.4.2
-    #- -r requirement.txt
+    - matplotlib==3.8.4
+    - numpy==1.26.4
+    - pandas==2.3.1
+    - scipy==1.13.1
+    - seaborn==0.13.2
+    - cyvcf2==0.31.4
     # Print module version
     - watermark
+  # For the L3 GEuk course:
+  - fastqc=0.12.1
+  - multiqc=1.13
+  - bwa_mem2=2.2.1
+  - fastp=0.23.1
+  - fastq-screen=0.15.3
+  - samtools=1.21
+  - bc=1.07.1
+  - qualimap=2.2.2b
+  - subread=2.0.6
+  - bcftools=1.22
+  - htslib=1.22.1
+  - lumpy-sv=0.3.1
+  # For the L3 GH practical course:
+  - merlin=1.1.2
