@@ -52,7 +52,7 @@ dependencies:
     - watermark
   # For the L3 Genet Euk course:
   - fastqc==0.12.1
-  - bwa_mem2==2.2.1
+  - bwa_mem==2.2.1
   - samtools==1.21
   - bcftools==1.22
   - htslib==1.22.1
