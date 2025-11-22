@@ -30,7 +30,7 @@ dependencies:
   - scipy==1.13.1
   - matplotlib==3.8.4
   - seaborn==0.13.2
-  #- biopython==1.85
+  - biopython==1.85
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
   # jupyter-archive not compatible with the current JupyterLab <4
