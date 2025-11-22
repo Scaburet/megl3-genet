@@ -1,6 +1,7 @@
 name: m1meg-gh-polygen
 # from template plasmabio-template-python
 # with elements from https://github.com/pierrepo/plasma-env-cleblond-score-polygen.git
+# and other elements from https://github.com/Scaburet/m1meg-gh-polygen.git
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest priority
