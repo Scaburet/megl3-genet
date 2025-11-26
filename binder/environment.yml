@@ -4,12 +4,12 @@ name: m1meg-gh-polygen
 # and other elements from https://github.com/Scaburet/m1meg-gh-polygen.git
 # channels priority
 # see https://bioconda.github.io/
-# conda-forge has highest priority
 channels:
   - genomedk
-  - defaults
   - bioconda
   - conda-forge
+  - defaults
+channel_priority: strict  
 dependencies:
   # Jupyter dependencies
   - jupyterhub>=1.5,<2
