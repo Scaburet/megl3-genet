@@ -48,7 +48,7 @@ dependencies:
     #- statsmodels==0.14.5
     #- statannotations>=0.4.2
     - cyvcf2==0.31.4
-    - lumpy-sv==0.3.1
+    - lumpy-sv
     # Print module version
     - watermark
   # For the L3 Genet Euk course:
