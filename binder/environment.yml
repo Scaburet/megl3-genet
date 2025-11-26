@@ -48,6 +48,7 @@ dependencies:
     #- statsmodels==0.14.5
     #- statannotations>=0.4.2
     - cyvcf2==0.31.4
+    - lumpy-sv==0.3.1
     # Print module version
     - watermark
   # For the L3 Genet Euk course:
@@ -56,6 +57,5 @@ dependencies:
   - samtools==1.21
   - bcftools==1.22
   - htslib==1.22.1
-  - lumpy-sv==0.3.1
   # For the L3 GH practical course:
   - merlin=1.1.2
